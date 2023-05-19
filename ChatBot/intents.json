@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "affirmative",
+      "patterns":[
+        "How are you"
+      ],
+      "responses": [
+        "I am fine. How are you?"
+      ]
+    },
+
+    {
+      "tag": "affirmative",
+      "patterns": [
+        "What are you doing?"
+      ],
+      "responses": [
+        "Nothing much. You tell."
+      ]
+    },
+
+    {
+      "tag":"music",
+      "patterns": [
+        "Please recommend me some songs"
+      ],
+      "responses": [
+        "Home Alright - https://open.spotify.com/track/3JFOyRfu5kNjljJjetxWbC?si=ORDHFSySTTqxsB-fBszOLQ&utm_source=whatsapp",
+        "Legends Never Die - https://open.spotify.com/track/1FpVJ7HpZInE2GvhVE2TwT?si=z-92bl2wTGGPTH6DEiO4PA&utm_source=whatsapp",
+        "Pheonix - https://open.spotify.com/track/6zAiRKvAMlXHxEtyO4yxIO?si=ii9KhZQwSA-4ENReHg3rwQ&utm_source=whatsapp",
+        "Sunflower - https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=Y9uyUy2pS6SdkCAKeSIavQ&utm_source=whatsapp",
+        "Wild Shot - https://open.spotify.com/track/7ikW1PIkpOhAfFMVGA32BB?si=mil5xaeCTCCi9Ciq1-Igww&utm_source=whatsapp"
+      ]
+    },
+
+    {
+      "tag": "music",
+      "patterns": [
+        "I am not feeling good.",
+        "I am very sad.",
+        "I am not in a good mood right now."
+      ],
+      "responses": [
+        "Somewhere I Belong - https://open.spotify.com/track/3fjmSxt0PskST13CSdBUFx?si=9sN0J3B8QBCjHvPpvNdvRg&utm_source=whatsapp",
+        "Numb - https://open.spotify.com/track/1y1sChqjzdNWzwdHQADMrR?si=EBS67UwiQKy2aCViS2p56g&utm_source=whatsapp",
+        "In the End - https://open.spotify.com/track/6zyrb7dW1IR4Hrc8nXJsln?si=9d-2mDhGSfOzN_f7C6xl4g&utm_source=whatsapp",
+        "Once in a lifetime - https://open.spotify.com/track/1dD1aarWotVIiFo5gGdMc2?si=x0i0Lm7PTRW_KF336_73wA&utm_source=whatsapp",
+        "Lies - https://open.spotify.com/track/0w0JymbxJS4N6qEWg7pA0a?si=2JkKpSYMQ7SdRbOkIkn2wg&utm_source=whatsapp"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a Good day"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Sad to see you go :(",
+        "Talk to you later."
+      ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        " I know they say that money talks, but all mine says is ‘Goodbye.’",
+        "What did the buffalo say when his son left for college? Bison.",
+        "I failed math so many times at school, I cannot even count.",
+        "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me."
+      ]
+    },
+    
+    {
+      "tag": "stocks",
+      "patterns": [
+        "what stocks do I own?",
+        "how are my shares?",
+        "what companies am I investing in?",
+        "what am I doing in the markets?"
+      ],
+      "responses": [
+        "You own the following shares: Tata, Reliance, HDFC, ITC and an ETF of the S&P 500 Index!"
+      ]
+    }
+  ]
+}
